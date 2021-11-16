@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d90e5acfefce4d78b2bb9aaea0950b1b" Name="Diagram1">
+        <EntityTypeShape EntityType="SENDIT1Model.CUSTOMER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SENDIT1Model.DELIVERY" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SENDIT1Model.ORDER" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SENDIT1Model.PACKAGE" Width="1.5" PointX="2.875" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SENDIT1Model.ROUTE" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SENDIT1Model.USER" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="SENDIT1Model.FK__CUSTOMER__ORDER___34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__CUSTOMER__USERID__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__ORDER__CUSTOMER___36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__DELIVERY__ROUTE___2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__ROUTE__DELIVERY___37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__ORDER__ROUTE_ID__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__ROUTE__ORDER_ID__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="SENDIT1Model.FK__USER__ROUTE_ID__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
